@@ -62,7 +62,10 @@ body {
 h2,
 h3,
 h4,
-h5,
+h5 {
+  color: var(--down-color);
+}
+
 h6 {
   color: var(--dark-color);
 }
@@ -93,11 +96,12 @@ h4 {
 }
 
 h5 {
+  color: var(--p-color);
   font-size: var(--h5-font-size);
 }
 
 h6 {
-  color: var(--p-color);
+  color: var(--down-color);
   font-size: var(--h6-font-size);
 }
 
@@ -341,19 +345,19 @@ strong {
 
 .news-btn {
   /* background: var(--primary-color-back); */
-  background:  #ffbb00;
+  background:  #D9D9D9;
   /* border: 2px solid transparent; */
-  border: 1px solid #cbcbcb7d;
-  border-radius: 10px;
-  color: #f4efef;
-  font-size: var(--btn-font-size);
+  border: 2px solid #8080802b  ;
+  border-radius: 50%;
+  color: #ee5007e4  ;
+  font-size: 20px;
   font-weight: var(--font-weight-bold);
   line-height: normal;
   transition: all 0.3s;
   padding: 10px 27px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .news-btn:hover {
@@ -554,8 +558,8 @@ strong {
 .hero-section {
   position: relative;
   overflow: hidden;
-  padding-top: 100px;
-  height: 84vh;
+  padding-top: 8%;
+  height: 82vh;
   /* height: calc(100vh - 51px); */
 }
 
@@ -563,7 +567,7 @@ strong {
   position: relative;
   overflow: hidden;
   padding-top: 100px;
-  height: 16vh;
+  height: 10vh;
   /* height: calc(100vh - 51px); */
 }
 
@@ -1056,7 +1060,7 @@ strong {
   }
 
   .hero-section {
-    padding-top: 150px;
+    padding-top: 0px;
   }
 
   .pricing-thumb {
@@ -1230,6 +1234,10 @@ strong {
   /* width: 80%; */
   padding-left: 3%;
   padding-right: 3%;
+  text-align: justify; /* 设置文本两端对齐 */
+  text-justify: inter-word; /* 控制文本在单词之间对齐 */
+  /* overflow-wrap: normal; */
+  /* white-space: nowrap; 文本不换行 */
   /* justify-content: center; */
   /* align-items: center; */
 }
@@ -1270,7 +1278,17 @@ strong {
 /* --------------
     URL
 ----------------*/
-
+.url-text {
+  display: inline-block;
+  color: var(--p-color);
+  /* font-weight: bold; */
+  text-decoration: underline;
+  /* text-align:center */
+  text-decoration-color: rgba(0, 0, 0, 0.5);
+  text-underline-offset: 0.3em;
+  text-decoration-thickness: 1px;
+  /* text-decoration-offset: 0.2em; */
+}
 .url-show {
   /* margin-left: 30px;  */
   color: rgb(24, 25, 25);
