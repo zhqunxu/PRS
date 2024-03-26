@@ -160,12 +160,13 @@ https://templatemo.com/tm-583-festava-live
                                     <p>&nbsp;&nbsp;</p><br><br><br>
                                     <br>
                                     <a href="contact.html" class="news-btn d-lg-block d-none">
-                                        News!</a><h4 style="margin-top: 5px; color: rgb(95, 95, 95);line-height: 1.5;">CVPR 2024 Embodied AI Workshop PRS Challenge: Human Society Integration <br> Exploration 
-                                            by Apple & Peking University & PRS Organization</h4>
-                                            <br>
+                                        News!</a><h3 style="margin-top: 5px; color: rgb(95, 95, 95);line-height: 1.5;">CVPR 2024 Embodied AI Workshop PRS Challenge: Human Society Integration Exploration 
+                                         
+                                            </h3> 
                                         <!-- <h5 class="mb-5" style="color:rgba(245, 248, 251, 0.981);"><p>ada</p>News:  PRS Organization & Apple & Peking University Organizes PRS Challenge</h5> -->
                             </div>
-                            <br><br>
+                            <h5 style="margin-left: 10%;">by Apple & Peking University & PRS Organization</h5>
+                            <!-- <br> -->
                             <!-- <br> -->
                                 <!-- <h2 class="text-black mb-5">Polar Research Station (PRS) Platform: Human Society Simulator 
                                     for Generalist Embodied Agent Exploration</h2> -->
@@ -270,29 +271,32 @@ https://templatemo.com/tm-583-festava-live
                     <div class="container">
                     <div class="main-text">
                         <h4></h4>
-                        <p> Polar Research Station Organization (<a href="https://github.com/PRS-Organization" class="url-text">PRS Organization</a>) is an open-source organization specifically contributes to delving into generalist agents, focusing on developing generalist technologies progressively while maintaining manageable risks, costs, and pathways. 
-                            Our goal is to deliver practical, dependable, and secure intelligent services for the betterment of all humanity.
+                        <p> Polar Research Station (<a href="https://github.com/PRS-Organization" class="url-text">PRS</a>) Organization is dedicated to delving into generalist agents and making general artificial intelligence technologies in controllable risks, costs, pathways, and scenarios. 
+                            Our goal is to deliver practical, reliable, and secure intelligent integrated services for the betterment of all humanity.
                             <br>
-                            We aim to address the critical challenge of gradually integrating embodied agents into human society. To further explore the scenarios of human-agent interaction, we introduce an open-source <strong> PRS Platform</strong>, a simulator presented by PRS to deploy generalist agents in human society.
-                            PRS Platform simulates a small-scale human community and robot agents, which boasts the following <strong>key features:</strong></p>
+                            The <strong>PRS Platform</strong> is an open-source simulator project provided by PRS Organization. 
+                            We aim to address the critical challenge of gradually integrating embodied agents into human society. 
+                            To further explore the scenarios of human-agent interaction, PRS Platform simulates a small-scale human community (<strong>ecosystem</strong>) 
+                            for the gradual exploration of comprehensive issues related to the integration of embodied robots into human society. 
+                            <!-- a simulator presented by PRS to deploy generalist agents in human society. -->
+                            PRS Platform boasts the following <strong>features:</strong></p>
                         <!-- <p>极科通用(Polar Research Station)为极地研究科考站组织通用智能计划的简称，该项目用于针对性探索真正意义上的通用人工智能技术，并致力于使得这些技术以可控的风险、成本、路径逐步落地，并为全人类提供实用的、可靠的、安全的智能服务。 (暂未翻译。。。)</p>
                         <p>为了探索人机混居的场景，我们提出了一个开源的项目——极地科考站，来逐步地减缓具身智能融入人类社会的综合性问题。该项目提供了一个虚拟模拟器平台，该虚拟模拟器的框架如图1所示，并且具有以下特征(a)(b)(c)(d)(e)(f)(g):</p> -->
                         <ul>
-                            <li> A 3D interactive environment with continuous state supported by the Nvidia PhysX physics engine. </li>
-                            <li> The three-story main building is a complex and interconnected space housing various functional areas, such as activity rooms,
-                                 meeting rooms, kitchens, bedrooms, laboratories, greenhouses, warehouses, supermarkets, gyms, and other communal scenes. </li>
-                            <li> Numerous characters (like NPC in the game) exist in the main building, each with their own needs (basic physiological, work-related, entertainment, social, etc.). They autonomously walk through the building based on their preferences, habits, states, and social relationships. 
-                                We have developed an LLM-based system to generate reasonable behavior for these characters, ensuring their actions resemble real-world behaviors rather than simplistic and fixed patterns. </li>
-                            <li> The needs and states of the characters are meaningful and human-like. When a character is hungry, it must seek food; otherwise, hunger can result in low blood sugar and a range of negative consequences. </li>
-                            <li> Characters possess individual emotional and expressive systems that react to events and personal traits, leading to dynamic changes in their emotions and expressions. </li>
-                            <li> Characters accomplish their goals by interacting with massive objects and diverse specific devices within the environment. 
-                                This type of interaction potentially leads to consequences and influences on the total environment, similar to the butterfly effect.</li>
+                            <li> A 3D interactive continuous environment supported by the Nvidia PhysX physics engine. </li>
+                            <li> The three-story building containing activity rooms, meeting rooms, kitchens, bedrooms, laboratories, greenhouses, warehouses, supermarkets, gyms, and other communal scenes. </li>
+                            <li> Human characters with their own meaningful and human-like needs (basic physiological, work, entertainment, social, etc.). When a character is hungry, it must seek food; otherwise, hunger can result in low blood sugar and a range of negative consequences. </li>
+                            <li> Characters autonomously move through the building based on their needs, preferences, habits, states, and social relationships. We have developed an LLM based system to generate reasonable behavior for these characters, 
+                                ensuring that their behavior resembles complex and unpredictable behaviors in the real world, rather than simply fixed patterns. </li>
+                            <!-- 5 ~ 10 -->
+                            <li> Characters have their own emotional and facial expression system, which is influenced by events and the characters' own traits </li>
+                            <li> Characters accomplish their goals by interacting with massive objects and diverse specific devices within the environment.</li>
                             <li> The community is designed to operate in a long-term and stable manner, facilitating simulation and calculation with the ability to start, accelerate time, and even pause in any given situation. </li>
                             <li> In the simulator, robots can gather perceptual signals in the scene using visual, tactile, auditory, olfactory, temperature, and humidity sensors. 
                                 They interact with a majority of objects in the environment through actions such as movement, grasping, and manipulation. </li>
                             <li> To accommodate users with varying technical backgrounds, we offer a range of APIs, for motor control at the basic level, from verb-based semantic APIs to high-level phrase APIs for robot control. 
                                 Furthermore, we have opened up numerous APIs for controlling human characters, items, environments, and devices within the scene—allowing for comprehensive control over nearly everything.  </li>
-                            <li> We have implemented a lightweight framework that makes our environment user-friendly, easily extendable, modifiable, and developable using only <strong>Python</strong>. </li>
+                            <li> We have implemented a lightweight framework that makes our environment user-friendly, easily extendable, modifiable, and developable using only <strong>Python</strong>! </li>
                             <!-- <li> </li> -->
                             <!-- <li>Utilization of Universal, LLM-Level, and Skill/Semantic Level APIs</li>
                             <li> Implementation of a Modular Architecture for Scalability</li>
@@ -341,9 +345,12 @@ https://templatemo.com/tm-583-festava-live
                         </div> -->
                         <br>
                         <h5>To Everyone:</h5>
-                        <p>Before the full version is released, there will be a testing experience version available for <a href="https://github.com/PRS-Organization" class="url-text">PRS Platform</a>. We have a daily maintenance community, and creating a simulated human social ecosystem for generalist robot development is a highly challenging and interesting project. We are eager to receive your feedback and insights on this initiative. 
-                            Given our current limited team resources, we are particularly interested in engaging and collaborating with developers who share our passion. 
-                            Additionally, we extend a warm invitation to professional research teams to join us in advancing the potential of the PRS platform and the generalist agent.
+                        <p>
+                            <!-- Before the full version is released, there will be a testing experience version available for <a href="https://github.com/PRS-Organization" class="url-text">PRS Platform</a>.  -->
+                            We have a daily maintenance community, and building a simulated human social ecosystem for generalist robot development is a highly challenging and interesting task. 
+                            We are eager to hear everyone's feedback and opinions. Especially considering our team's current limited resources, we are keen to communicate, work, and collaborate with volunteers who share the same interests. 
+                            Additionally, we warmly welcome professional research teams to explore the potential of the PRS platform together with us.
+                    
                         </p>
                         <h3>Task Now</h3>
                         <p>We have developed a universal large-scale model platform and testing benchmark on the PRS subject of AI integration into human society, focusing on discussions surrounding AI agents, Embodied AI research, and the role of large models.
