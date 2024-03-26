@@ -15,7 +15,7 @@ https://templatemo.com/tm-583-festava-live
   --primary-color:                rgba(246, 249, 252, 0.949);
   /* top area */
   --primary-color-back:                #ffc800;
-  --secondary-color:              #e55039;
+  --secondary-color:              #e35944;
    /* nav button */
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #ee5007e4;
@@ -350,14 +350,14 @@ strong {
   border: 2px solid #8080802b  ;
   border-radius: 50%;
   color: #ee5007e4  ;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: var(--font-weight-bold);
   line-height: normal;
   transition: all 0.3s;
-  padding: 10px 27px;
+  padding: 25px 27px;
   margin-bottom: 30px;
-  margin-left: 20px;
-  margin-right: 50px;
+  /* margin-left: 20px; */
+  margin-right: 20px;
 }
 
 .news-btn:hover {
@@ -430,7 +430,9 @@ strong {
 -----------------------------------------*/
 .site-header {
   /* background-color: var(--primary-color); */
-  background: linear-gradient(to right, #ff000055, #ffff0059);
+  /* background: linear-gradient(to right, #ff000055, #ffff0059); */
+  /* background: linear-gradient(to right, #ff000055, #ffff0059); */
+  background: white;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -559,7 +561,7 @@ strong {
   position: relative;
   overflow: hidden;
   padding-top: 8%;
-  height: 82vh;
+  height: 69vh;
   /* height: calc(100vh - 51px); */
 }
 
@@ -567,7 +569,7 @@ strong {
   position: relative;
   overflow: hidden;
   padding-top: 100px;
-  height: 10vh;
+  height: 15vh;
   /* height: calc(100vh - 51px); */
 }
 
@@ -1281,10 +1283,10 @@ strong {
 .url-text {
   display: inline-block;
   color: var(--p-color);
-  /* font-weight: bold; */
+  font-weight:400;
   text-decoration: underline;
   /* text-align:center */
-  text-decoration-color: rgba(0, 0, 0, 0.5);
+  text-decoration-color: rgba(0, 0, 0, 0.716);
   text-underline-offset: 0.3em;
   text-decoration-thickness: 1px;
   /* text-decoration-offset: 0.2em; */
@@ -1319,7 +1321,16 @@ strong {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  max-width: 80%;
+  max-width: 60%;
+  height: auto;
+}
+.show-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 75%;
   height: auto;
 }
 
