@@ -46,7 +46,7 @@ https://templatemo.com/tm-583-festava-live
 
   --font-weight-light:            300;
   --font-weight-normal:           400;
-  --font-weight-bold:             700;
+  --font-weight-bold:             600;
 }
 
 body {
@@ -114,7 +114,7 @@ p {
 ul li {
   color: var(--p-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-light);
+  font-weight: var(--font-weight-light);  
 }
 
 a, 
@@ -357,7 +357,7 @@ strong {
   padding: 25px 27px;
   margin-bottom: 30px;
   /* margin-left: 20px; */
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .news-btn:hover {
@@ -461,7 +461,7 @@ strong {
 .navbar-brand,
 .navbar-brand:hover {
   color: var(--white-color);
-  font-size: var(--h5-font-size);
+  font-size: 23px;
   font-weight: var(--font-weight-bold);
 }
 
@@ -1260,6 +1260,14 @@ strong {
   font-size: medium;
   color: rgba(0, 0, 0, 0.54);
 }
+.text-small-gray{
+  font-size:large;
+  color: rgba(0, 0, 0, 0.54);
+}
+.text-gray{
+  font-size:x-large;
+  color: rgba(0, 0, 0, 0.559);
+}
 .text-content {
   color: black;  /* 设置文字颜色为黑色 */
   text-align: left;  /* 文字从左往右对齐 */
@@ -1329,7 +1337,7 @@ strong {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   max-width: 75%;
   height: auto;
 }
